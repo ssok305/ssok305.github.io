@@ -12,4 +12,9 @@ Wanted to add a level of difficulty to the AI making it harder or easier.
 
 
 
+References: 
 
+https://www.youtube.com/watch?v=-HHFKpps7fQ&ab_channel=TokyoEdtech
+https://www.youtube.com/watch?v=sLCiI6d5vTM&ab_channel=InteractiveDeveloper
+https://www.geeksforgeeks.org/html-canvas-basics/
+https://github.com/gdube/pong-js /** Provide great detail through object literals */
