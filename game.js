@@ -177,7 +177,7 @@ function update(){
         ball.velocityY = ball.speed * Math.sin(anglePoint);
 
 
-        ball.speed += 1;
+        ball.speed += =0.5;
     }
 
     if(ball.speed >= 50){
