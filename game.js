@@ -3,7 +3,7 @@ document.body.style.textAlign = 'center';
 const canvas = document.getElementById('pong')
 const content = canvas.getContext('2d');
 
-var winningScore = 2;
+var winningScore = 5;
 var winningScreen = false;
 function pongGame(canvas){
     const user = {
