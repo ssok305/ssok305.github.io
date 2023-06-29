@@ -3,14 +3,16 @@ Created By: Suthery Sok
 
 I created a Pong game that allows the user to compete against AI. I utilized Canvas to help build my background.
 
-If trying to use the game, use either the Github.io page linked within the GitHub page or to install in VS code please have the Live Server extension properly open a webpage within VS code.
+Installation 
+Github Pages allow for public use. If wanting to run on your own system, please install Visual Studio Code and install HTML5, CSS3, and Javascript. After doing so, please install Live Server extension into your Visual Studio Code IDE. Once everything is installed, right-click the HTML file called Index.html and find a tab called Open with Live Server. It will open a new browser and run the program.
 
 
 Unsolved Problems/ Ideas :
 Wanted to add a better-looking display for the pong game for the users to see.
 Wanted to add a level of difficulty to the AI making it harder or easier. 
 
-
+Bugs:
+When the ball is at the bottom and hitting both paddles it will be in a forever loop. The only way to get out of it is by allowing the ball to move past the user.
 
 References: 
 
@@ -24,4 +26,8 @@ https://www.geeksforgeeks.org/html-canvas-basics/
 
 
 
-https://github.com/gdube/pong-js /** Provide great detail through object literals */
+https://github.com/gdube/pong-js /** Provide great detail through object literals and how he approaches the Pong game. */
+
+
+
+https://codepen.io/fleemaja/pen/qRJwKO /** Another inspiration on how to develop the pong game */
