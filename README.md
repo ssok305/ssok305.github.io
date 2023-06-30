@@ -1,6 +1,9 @@
 Pong Game 
 Created By: Suthery Sok
 
+https://ssok305.github.io/
+
+
 I created a Pong game that allows the user to compete against AI. I utilized Canvas to help build my background.
 
 --------------------------------------Installation----------------------------------------------
