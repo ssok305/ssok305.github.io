@@ -14,6 +14,7 @@ Github Pages allow for public use. If wanting to run on your own system, please 
 --------------------------------Unsolved Problems/ Ideas :---------------------------------------
 
 Wanted to add a better-looking display for the pong game for the users to see.
+
 Wanted to add a level of difficulty to the AI making it harder or easier. 
 
 ------------------------------------------Bugs:--------------------------------------------------
@@ -27,6 +28,7 @@ When scoring the ball will remain at the speed at where it was last incremented 
 -------------------------------------Langauge-----------------------------------------
 
 HTML: The programming is using HTML as its template called index.html.
+
 Javascript: Main function of the program using a file called game.js.
 
 
