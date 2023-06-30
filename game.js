@@ -5,6 +5,9 @@ const content = canvas.getContext('2d');
 
 var winningScore = 5;
 var winningScreen = false;
+
+
+// Pong Game Function
 function pongGame(canvas){
     const user = {
         x:0,
