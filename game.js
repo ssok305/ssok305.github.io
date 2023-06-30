@@ -53,7 +53,7 @@ function pongGame(canvas){
     
     canvas.addEventListener("mousemove", movePaddle);
     canvas.addEventListener('mousedown', handleMouseClick);
-
+// handles the event listener when the user uses the click button on the mouse.
     function handleMouseClick(event) {
         if (winningScreen) {
             user.score = 0;
@@ -125,7 +125,7 @@ function pongGame(canvas){
     function draw(){
         drawRect(0,0,canvas.clientWidth, canvas.clientHeight, "BLACK");
 
-
+    // This checks if the computer or user has a winning score and creates a new canvas screen to showcas it.
         if(winningScreen){
             content.fillStyle = 'white';
 
@@ -171,7 +171,7 @@ function pongGame(canvas){
         ball.x += ball.velocityX;
         ball.y += ball.velocityY;
 
-
+// This line statement is the computer AI
         computer.y +=(ball.y -(computer.y + computer.height/2)) * 0.07;
 
         if(ball.y - ball.radius < 0 || ball.y + ball.radius > canvas.height){
@@ -180,7 +180,7 @@ function pongGame(canvas){
 
         let player = (ball.x + ball.radius < canvas.width/2) ? user:computer;
 
-
+// This scope handles the collision of when the ball hits an object or box within canvas
         if(collision(ball,player)){
 
             let collidePoint = (ball.y - (player.y + player.height/2));
