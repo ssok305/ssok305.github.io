@@ -20,7 +20,15 @@ Wanted to add a level of difficulty to the AI making it harder or easier.
 
 When the ball is at the bottom and hitting both paddles it will be in a forever loop. The only way to get out of it is by allowing the ball to move past the user.
 
-When scoring the ball will remain at the speed at where it was last incremented to until it hit paddle.
+When scoring the ball will remain at the speed at where it was last incremented until it hit the paddle.
+
+
+
+-------------------------------------Langauge-----------------------------------------
+
+HTML: The programming is using HTML as its template called index.html.
+Javascript: Main function of the program using a file called game.js.
+
 
 ------------------------------------===References:------------------------------------------------ 
 
