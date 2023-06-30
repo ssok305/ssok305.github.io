@@ -17,6 +17,8 @@ Wanted to add a better-looking display for the pong game for the users to see.
 
 Wanted to add a level of difficulty to the AI making it harder or easier. 
 
+Wanted to add a start screen for the user.
+
 ------------------------------------------Bugs:--------------------------------------------------
 
 When the ball is at the bottom and hitting both paddles it will be in a forever loop. The only way to get out of it is by allowing the ball to move past the user.
